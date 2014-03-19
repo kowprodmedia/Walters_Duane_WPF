@@ -9,11 +9,13 @@ var degCent;
 degCent = 5/9 * (degFahren - 32);
 
 document.write(degFahren + "\xB0 Farenheit is " + degCent + "\xB0 celcius<br />");
+console.log(degFahren + "\xB0 Farenheit is " + degCent + "\xB0 celcius<br />");
 
 if(degCent < 0){
 	document.write("You're freezing water.");
-}
-
-if(degCent == 100){
-	document.write("You're boiling water");
+	console.log("You're freezing water.");
+}else{
+	(degCent == 100);
+	document.write("You're boiling water.");
+	console.log("You're boiling water.");
 }

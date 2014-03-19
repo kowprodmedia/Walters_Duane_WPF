@@ -4,8 +4,9 @@
 //How many pixels are in a 1080p movie?
 var width = 1920;
 var height = 1080;
+var phrase = "there are";
 
-var result = 1920 * 1080 + "px in 1080p film";
+var result = phrase + " " + 1920 * 1080 + "px in 1080p film";
 console.log(result);
 
 //Simple form information
@@ -19,7 +20,7 @@ var phoneArea = "765";
 var phoneFirstThree = "653";
 var phoneLastFour = "8372";
 
-var phoneNo = "(" + String(phoneArea) + ")" + String(phoneFirstThree) + "-" + String(phoneLastFour);
+var phoneNumber = "(" + String(phoneArea) + ")" + String(phoneFirstThree) + "-" + String(phoneLastFour);
 
 var houseAddressNumber = "83";
 var streetName = "Elm Street";
@@ -31,6 +32,6 @@ var addressResult = houseAddressNumber + " " + streetName;
 var cityStateResult = city + ", " + state + " " + zip;
 
 console.log(nameResult);
-console.log(phoneNo);
+console.log(phoneNumber);
 console.log(addressResult);
 console.log(cityStateResult);

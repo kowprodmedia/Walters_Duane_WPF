@@ -18,7 +18,7 @@ if(degCent < 0){
 	}
 
 if(degCent == 100){
-	//document.write("You're boiling water.");
+	document.write("You're boiling water.");
 	console.log("You're boiling water.");
 	}
 

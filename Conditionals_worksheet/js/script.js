@@ -46,9 +46,10 @@ if(userName + password == "James007" || userName + password == "Q007"){
 
 //Group 3 - Movie Ticket Price
 
-var regPrice = 12.00;
-var discountPrice = 7.00; //55 and older, or 10 and under
+var age = 7;
 var discountTime = ("3", "4", "5");
 
-if(regPrice){
+if(age < 10 && age > 50){
+
+	console.log("eligible");
 }

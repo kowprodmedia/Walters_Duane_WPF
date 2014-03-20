@@ -27,9 +27,15 @@ if(degCent == 100){
 
 //Group 2 Check the Login
 
-var myAge = Number(prompt("Enter Your Age" , 31));
+var userName = prompt("Username", "blank");
+var password = prompt("Password", " ");
 
-if (myAge >= 0 && myAge <= 10){
-	document.write("myAge is between 0 and 10<br />);
-	console.log("myAge is between 0 and 10);
-}
+if(userName + password == "James007" || userName + password == "Q007") {
+	document.write("Hello 007, how are you today?");
+	console.log("Hello 007, how are you today?");
+}else{
+	document.write("Sorry, you have entered the wrong username and/or password. Please try again.");
+	console.log("Sorry, you have entered the wrong username and/or password. Please try again.");
+	}
+	
+	

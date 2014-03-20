@@ -25,9 +25,6 @@ if(degCent < 0){
 	}
 
 
-
-
-
 //Group 2 - Check the Login
 
 
@@ -40,29 +37,22 @@ if(userName == "James" && password == "007"){
 	}else if (userName == "Q" && password == "007") {
 		document.write("Hello Q!<br />");
 		console.log("Hello Q!");
+	}else {
+		document.write("Sorry, you seem to have entered the wrong username and/or password. Please, try again.<br />");
+		console.log("Sorry, you seem to have entered the wrong username and/or password. Please, try again.");
 	}
-
-
-
-
-/*if(userName + password == "James007" || userName + password == "Q007"){
-	document.write("Hello 007, how are you today?");
-	console.log("Hello 007, how are you today?");
-}else{
-	document.write("Sorry, you have entered the wrong username and/or password. Please try again.");
-	console.log("Sorry, you have entered the wrong username and/or password. Please try again.");
-	}*/
-
-
 
 
 
 //Group 3 - Movie Ticket Price
 
-var age = 7;
-var discountTime = ("3", "4", "5");
+var age = 9;
+var discountTime = 9;
 
-if(age < 10 && age > 50){
-
-	console.log("eligible");
-}
+if( (age < 10 || age > 50) || (discountTime < 5 && discountTime >3) ){
+		document.write("Congratulations! You're eligible for the discount!<br />");
+		console.log("Congratulations! You're eligible for the discount!");
+			}else {
+				document.write("Sorry, You're not eligible for the discounted price.<br />");
+				console.log("Sorry, You're not eligible for the discounted price.");
+			}

@@ -8,7 +8,7 @@ var ticketPrice = 10;
 var crowd = 5;
 
 var result = ticketPrice * crowd;
-	console.log(result);
+	console.log( ("That is "), (result), (" bucks. ") );
 	document.write( ("That is "), (result), (" bucks. ") );
 
 if(crowd * ticketPrice < cost) {

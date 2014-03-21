@@ -1,18 +1,32 @@
 //Duane Walters 3.20.2014 - Conditionals Wacky
 
 
-var scandalLength = 60;
-var commercial = [.30, 1, .30, 1.5, .30];
+//Scandal commercial breaks
 
-/*var result = (commercial[0] + commercial[1] + commercial[2] + commercial[3] + commercial[4]);
- console.log(result);*/
- 
 
-if(commercial >= 1){
+var commercial1 = .25;
+var commercial2 = 1;
+var commercial3 = 1.5;
+var bathroomBrk = 2;
+
+
+
+
+if(commercial1 >= bathroomBrk){
 	console.log("Yes, you can go to the bathroom.");
-	}else if (commercial >=.30) {
-		console.log("No, you can't go to the bathroom.");
-	}
+	document.write("Yes, you can go to the bathroom.");
+		}else if (commercial2 >= bathroomBrk) {
+			console.log("Yes, you can go to the bathroom.");
+			document.write("Yes, you can go to the bathroom.");
+		}else if (commercial3 >= bathroomBrk) {
+			console.log("Yes, you can go to the bathroom.");
+			document.write("Yes, you can go to the bathroom.");
+		}else {
+			console.log("No, you can't go to the bathroom.");
+			document.write("No, you can't go to the bathroom.");
+		}
+
+
 
 
 

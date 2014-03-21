@@ -2,7 +2,7 @@
 
 
 var paycheck = 1000;
-var bankAcct = 500;
+var bankAcct = 900;
 var computer = 1700;
 
 var result = bankAcct + paycheck;

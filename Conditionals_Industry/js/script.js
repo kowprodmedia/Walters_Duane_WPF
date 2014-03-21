@@ -5,9 +5,11 @@
 
 var cost = 100;
 var ticketPrice = 10;
-var crowd = 11;
-var payment;
+var crowd = 5;
 
+var result = ticketPrice * crowd;
+	console.log(result);
+	document.write( ("That is "), (result), (" bucks. ") );
 
 if(crowd * ticketPrice < cost) {
 	console.log("No, don't take the gig.");

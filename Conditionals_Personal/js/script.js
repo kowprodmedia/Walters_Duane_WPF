@@ -1,6 +1,9 @@
 //Duane Walters 3.20.2014 - Conditionals Personal
 
 
+//Computer Funds
+
+
 var paycheck = 1000;
 var bankAcct = 900;
 var computer = 1700;

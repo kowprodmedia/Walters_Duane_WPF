@@ -3,7 +3,6 @@
 //anonymous function
 
 function sticksUsed(){
-	//setLength = prompt ("How long is your set?", "");
 	var normalUse = prompt ("How many do you go through in an hour?", "");
 	var setLength=prompt("Enter Your Set Length","Length In Hours");
 	var pair = 2;
@@ -11,8 +10,6 @@ function sticksUsed(){
 
 
 var x;
-
-//var setLength=prompt("Enter Your Set Length","Length In Hours");
 
 if (setLength!=null)
   {

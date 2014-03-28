@@ -2,12 +2,12 @@
 
 
 function simpleMath(){
-var firstNum =prompt ("enter number", "1");
-var secondNum =prompt ("enter number", "2");
-var thirdNum =prompt ("enter number", "3");
-
-var result = firstNum + secondNum + thirdNum;
-	console.log(result);
-	document.write( ("You have "), (result), (" dollars. ") );
-
+var num1 =prompt ("enter number", "1");
+var num2 =prompt ("enter number", "2");
+/*var x = z+y;*/
+	console.log("num1 + num2");
+	document.write("num1 + num2");
+	
+}
+	
 

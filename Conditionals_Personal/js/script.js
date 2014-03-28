@@ -3,8 +3,8 @@
 
 //Computer Funds
 
-
-var paycheck = 1000;
+function ageFunction(){
+var paycheck =prompt ("enter number", "");
 var bankAcct = 900;
 var computer = 1700;
 
@@ -21,4 +21,5 @@ if( (paycheck >= computer) || (bankAcct >= computer) ){
 			console.log("I'm sorry, you don't have the funds.");
 			document.write("I'm sorry, you don't have the funds.");
 		}
+	}
 
